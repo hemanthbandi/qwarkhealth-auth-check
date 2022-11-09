@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask, redirect, render_template, url_for
+from flask_wtf import FlaskForm 
 
 from forms.paform import PriorAuthForm
 from models import get_formulary, load_model

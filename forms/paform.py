@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import BooleanField, SelectField, SubmitField
-from wtforms.validators import Required
+from wtforms.validators import DataRequired as Required
 
 PAYERS = ['417380', '999001', '417740', '417614']
 DRUGS = ['A', 'B', 'C']
