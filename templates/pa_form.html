@@ -2,7 +2,7 @@
 {% block content %}
 	<form class="paform" action="{{ url_for('pa_result') }}" method="post" name="input">
 		{{ form.csrf_token }}
-		<span class="form_title"><h1>Qwark: Prior Authorization Checker</h1></span>
+		<span class="form_title"><h1>Qwark Health: Prior Authorization Checker</h1></span>
 		<table class="patable box">
 			<tr>
 				<td><span class="label" title="{{ form.payer.description }}">{{ form.payer.label.text }}</span> {{ form.payer }}</td>
